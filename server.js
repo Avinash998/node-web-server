@@ -3,6 +3,7 @@ const hbs = require('hbs');
 const fs = require('fs');
 
 const app = express();
+const port = process.env.PORT || 3000;
 
 // for adding header footer partials
 hbs.registerPartials(__dirname + '/views/partials');
@@ -61,6 +62,6 @@ app.get('/bad',(req,res,next) => {
 	res.status(500).send(error.message);
 })
 
-app.listen(3000, () => {
-	console.log('Server is up on port 3000');
+app.listen(port, () => {
+	console.log(`Server is up on port ${port}`);
 });
