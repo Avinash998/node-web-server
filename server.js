@@ -22,9 +22,9 @@ app.use((req,res,next) => {
 	next();
 });
 
-/*
+
 // maintainance page
-app.use((req,res,next) => {
+/*app.use((req,res,next) => {
 	res.render('maintance.hbs');
 	next();
 });*/
