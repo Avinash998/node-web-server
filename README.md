@@ -24,6 +24,9 @@ node server.js
 open webbrowser and type url 'localhost:3000'
 and its ready to go, and explore
 
+## Deployment
+click link for the project url [https://fierce-shelf-96857.herokuapp.com/](https://fierce-shelf-96857.herokuapp.com/)
+
 ## Development
 server logging request before every every route
 ```javascript
